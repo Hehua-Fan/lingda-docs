@@ -9,32 +9,29 @@ title: 工作流规划
 整个过程就像“搭积木”——每一个模块都是具有特定功能的组件，通过合理组合这些模块，即可构建出具有个性化能力的智能体。理解各模块的特性和用途，将有助于你更全面地掌握智能体的构建方法与能力边界。
 
 
-<center>
-<img src='/img/agent-1-3-1.png' width=100%></img>
-</center>
+<div style="text-align: center; margin: 30px 0;">
+  <img src="/img/agents/workflow/1.jpg" width="100%"/>
+</div>
 
-<p style="text-align: center; color: #666; font-size: 14px; margin-top: 8px;">图1-2-1：用户提问</p>
 
 - 左侧为模块区，目前平台的模块分为系统模块、智能体和工具三类。
   - 系统模块：链接 AI 能力，对输入文本进行处理，如信息加工、知识库搜索等。
   - 智能体：在一个智能体任务规划中，可以调用已上线的智能体，进行更加复杂能力的规划。
   - 工具：将常用工具进行打包，扩充智能体链接第三方能力，企业也可以根据自身需要，自行开发工具。
 
-<center>
-<img src='/img/agent-1-3-2.png' width=100%></img>
-</center>
+<div style="text-align: center; margin: 30px 0;">
+  <img src="/img/agents/workflow/2.jpg" width="100%"/>
+</div>
 
-<p style="text-align: center; color: #666; font-size: 14px; margin-top: 8px;">图1-2-1：用户提问</p>
 
 - 画布区为“规划”设计区，可将模块区组件通过拖拽方式移入画布，并通过连线，将各个模块进行能力组合。
 - 每个模块中，位于左侧的接口为输入，右侧接口为输出，连接只能将一个输入和输出连接起来，不能连接“输入和输入”或者“输出和输出”。
 - 如果连接错误，可点击线中间的 x 删除链接。
 
-<center>
-<img src='/img/agent-1-3-3.png' width=100%></img>
-</center>
+<div style="text-align: center; margin: 30px 0;">
+  <img src="/img/agents/workflow/3.jpg" width="100%"/>
+</div>
 
-<p style="text-align: center; color: #666; font-size: 14px; margin-top: 8px;">图1-2-1：用户提问</p>
 
 功能区位于页面右上角和左下角，分为两个部分：
 - 画布功能区
@@ -44,10 +41,9 @@ title: 工作流规划
 - 导入/导出：将该智能体的编排进行导入与导出。
 - 预览：进入预览对话窗口，进行快速对话调试。
 <center>
-<img src='/img/agent-1-3-4.png' width=45%></img>
+<img src='/img/agents/workflow/4.jpg' width=45%></img>
 </center>
 
-<p style="text-align: center; color: #666; font-size: 14px; margin-top: 8px;">图1-2-1：用户提问</p>
 
 
 **智能体功能区**
@@ -55,10 +51,9 @@ title: 工作流规划
 - 保存：保存智能体当前编排和配置。
 - 上架：将智能体上架到“智能体市场”中。
 <center>
-<img src='/img/agent-1-3-5.png' width=45%></img>
+<img src='/img/agents/workflow/5.jpg' width=45%></img>
 </center>
 
-<p style="text-align: center; color: #666; font-size: 14px; margin-top: 8px;">图1-2-1：用户提问</p>
 
 **模块结构**
 每个模块由三部分组成：
@@ -69,7 +64,6 @@ title: 工作流规划
 <img src='/img/agent-1-3-6.png' width=45%></img>
 </center>
 
-<p style="text-align: center; color: #666; font-size: 14px; margin-top: 8px;">图1-2-1：用户提问</p>
 
 **节点说明**
 
@@ -79,13 +73,11 @@ title: 工作流规划
 <img src='/img/agent-1-3-7.png' width=45%></img>
 </center>
 
-<p style="text-align: center; color: #666; font-size: 14px; margin-top: 8px;">图1-2-1：用户提问</p>
 
 <center>
 <img src='/img/agent-1-3-8.png' width=45%></img>
 </center>
 
-<p style="text-align: center; color: #666; font-size: 14px; margin-top: 8px;">图1-2-1：用户提问</p>
 
 * 黄色节点：布尔型数值，与其他布尔型节点连接
 * 蓝色节点：字符串类型，可细分为文本信息、图片信息、文档信息三种，与其他相同信息类型节点

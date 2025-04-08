@@ -9,32 +9,27 @@ title: ワークフロー計画
 全体のプロセスは「ブロック組み立て」のようなものです。各モジュールは特定の機能を持つコンポーネントであり、これらのモジュールを合理的に組み合わせることで、パーソナライズされた能力を持つエージェントを構築できます。各モジュールの特性と用途を理解することで、エージェントの構築方法とその能力の範囲をより総合的に把握することができます。
 
 
-<center>
-<img src='/img/agent-1-3-1.png' width=100%></img>
-</center>
+<div style="text-align: center; margin: 30px 0;">
+  <img src="/img/agents/workflow/1.jpg" width="100%"/>
+</div>
 
-<p style="text-align: center; color: #666; font-size: 14px; margin-top: 8px;">図1-2-1：ユーザーの質問</p>
 
 - 左側はモジュールエリアで、現在のプラットフォームのモジュールはシステムモジュール、エージェント、ツールの3つのカテゴリに分かれています。
   - システムモジュール：AI機能を接続して入力テキストを処理します。情報処理、ナレッジベース検索などがあります。
   - エージェント：エージェントのタスク計画内で、オンラインのエージェントを呼び出して、より複雑な能力の計画を行うことができます。
   - ツール：一般的なツールをパッケージ化してエージェントのサードパーティ機能への接続を拡張します。企業は自身のニーズに応じてツールを開発することもできます。
 
-<center>
-<img src='/img/agent-1-3-2.png' width=100%></img>
-</center>
-
-<p style="text-align: center; color: #666; font-size: 14px; margin-top: 8px;">図1-2-1：ユーザーの質問</p>
+<div style="text-align: center; margin: 30px 0;">
+  <img src="/img/agents/workflow/2.jpg" width="100%"/>
+</div>
 
 - キャンバスエリアは「計画」設計エリアで、モジュールエリアからコンポーネントをドラッグしてキャンバスに移動し、接続を通じて各モジュールの能力を組み合わせることができます。
 - 各モジュールでは、左側のインターフェースが入力、右側のインターフェースが出力です。接続は入力と出力を接続するだけで、「入力と入力」または「出力と出力」を接続することはできません。
 - 接続が間違っている場合は、線の中央にあるXをクリックして接続を削除できます。
 
-<center>
-<img src='/img/agent-1-3-3.png' width=100%></img>
-</center>
-
-<p style="text-align: center; color: #666; font-size: 14px; margin-top: 8px;">図1-2-1：ユーザーの質問</p>
+<div style="text-align: center; margin: 30px 0;">
+  <img src="/img/agents/workflow/3.jpg" width="100%"/>
+</div>
 
 機能エリアはページの右上隅と左下隅にあり、2つの部分に分かれています：
 - キャンバス機能エリア
@@ -43,22 +38,20 @@ title: ワークフロー計画
 **キャンバス機能エリア**
 - インポート/エクスポート：エージェントのオーケストレーションをインポートおよびエクスポートします。
 - プレビュー：プレビュー対話ウィンドウに入り、クイック対話デバッグを行います。
-<center>
-<img src='/img/agent-1-3-4.png' width=45%></img>
-</center>
 
-<p style="text-align: center; color: #666; font-size: 14px; margin-top: 8px;">図1-2-1：ユーザーの質問</p>
+<center>
+<img src='/img/agents/workflow/4.jpg' width=45%></img>
+</center>
 
 
 **エージェント機能エリア**
 - 3つのドット：エージェントの公開/削除。
 - 保存：エージェントの現在のオーケストレーションと設定を保存します。
 - リスト：エージェントを「エージェントマーケットプレイス」にリストします。
-<center>
-<img src='/img/agent-1-3-5.png' width=45%></img>
-</center>
 
-<p style="text-align: center; color: #666; font-size: 14px; margin-top: 8px;">図1-2-1：ユーザーの質問</p>
+<center>
+<img src='/img/agents/workflow/5.jpg' width=45%></img>
+</center>
 
 **モジュール構造**
 各モジュールは3つの部分で構成されています：
@@ -69,7 +62,6 @@ title: ワークフロー計画
 <img src='/img/agent-1-3-6.png' width=45%></img>
 </center>
 
-<p style="text-align: center; color: #666; font-size: 14px; margin-top: 8px;">図1-2-1：ユーザーの質問</p>
 
 **ノードの説明**
 
@@ -79,13 +71,10 @@ title: ワークフロー計画
 <img src='/img/agent-1-3-7.png' width=45%></img>
 </center>
 
-<p style="text-align: center; color: #666; font-size: 14px; margin-top: 8px;">図1-2-1：ユーザーの質問</p>
-
 <center>
 <img src='/img/agent-1-3-8.png' width=45%></img>
 </center>
 
-<p style="text-align: center; color: #666; font-size: 14px; margin-top: 8px;">図1-2-1：ユーザーの質問</p>
 
 * 黄色のノード：ブール型の値、他のブール型ノードと接続します
 * 青色のノード：文字列型、テキスト情報、画像情報、文書情報の3つのサブタイプに分類でき、同じ情報タイプの他のノードと接続します

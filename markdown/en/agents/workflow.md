@@ -9,32 +9,28 @@ To help users understand and configure more clearly, the platform adopts a "what
 The entire process is like "building blocks" - each module is a component with specific functions, and by reasonably combining these modules, you can build agents with personalized capabilities. Understanding the characteristics and uses of each module will help you more comprehensively master the agent building methods and capability boundaries.
 
 
-<center>
-<img src='/img/agent-1-3-1.png' width=100%></img>
-</center>
-
-<p style="text-align: center; color: #666; font-size: 14px; margin-top: 8px;">Figure 1-2-1: User Question</p>
+<div style="text-align: center; margin: 30px 0;">
+  <img src="/img/agents/workflow/1.jpg" width="100%"/>
+</div>
 
 - The left side is the module area, currently the platform's modules are divided into three categories: system modules, agents, and tools.
   - System Modules: Connect AI capabilities to process input text, such as information processing, knowledge base search, etc.
   - Agents: Within an agent task planning, you can call online agents to plan more complex capabilities.
   - Tools: Package common tools to expand the agent's ability to connect to third-party capabilities; enterprises can also develop tools according to their own needs.
 
-<center>
-<img src='/img/agent-1-3-2.png' width=100%></img>
-</center>
+<div style="text-align: center; margin: 30px 0;">
+  <img src="/img/agents/workflow/2.jpg" width="100%"/>
+</div>
 
-<p style="text-align: center; color: #666; font-size: 14px; margin-top: 8px;">Figure 1-2-1: User Question</p>
 
 - The canvas area is the "planning" design area, where components from the module area can be moved into the canvas by dragging, and through connections, various modules can be combined for capabilities.
 - In each module, the interface on the left is the input, and the interface on the right is the output. Connections can only connect an input and output; you cannot connect "input to input" or "output to output."
 - If a connection is incorrect, you can click the X in the middle of the line to delete the connection.
 
-<center>
-<img src='/img/agent-1-3-3.png' width=100%></img>
-</center>
+<div style="text-align: center; margin: 30px 0;">
+  <img src="/img/agents/workflow/3.jpg" width="100%"/>
+</div>
 
-<p style="text-align: center; color: #666; font-size: 14px; margin-top: 8px;">Figure 1-2-1: User Question</p>
 
 The function area is located in the upper right corner and lower left corner of the page, divided into two parts:
 - Canvas Function Area
@@ -43,22 +39,20 @@ The function area is located in the upper right corner and lower left corner of 
 **Canvas Function Area**
 - Import/Export: Import and export the orchestration of the agent.
 - Preview: Enter the preview dialogue window for quick dialogue debugging.
+
 <center>
-<img src='/img/agent-1-3-4.png' width=45%></img>
+<img src='/img/agents/workflow/4.jpg' width=45%></img>
 </center>
-
-<p style="text-align: center; color: #666; font-size: 14px; margin-top: 8px;">Figure 1-2-1: User Question</p>
-
 
 **Agent Function Area**
 - Three dots: Publish agent/Delete agent.
 - Save: Save the current orchestration and configuration of the agent.
 - List: List the agent in the "Agent Marketplace."
+
 <center>
-<img src='/img/agent-1-3-5.png' width=45%></img>
+<img src='/img/agents/workflow/5.jpg' width=45%></img>
 </center>
 
-<p style="text-align: center; color: #666; font-size: 14px; margin-top: 8px;">Figure 1-2-1: User Question</p>
 
 **Module Structure**
 Each module consists of three parts:
@@ -69,7 +63,6 @@ Each module consists of three parts:
 <img src='/img/agent-1-3-6.png' width=45%></img>
 </center>
 
-<p style="text-align: center; color: #666; font-size: 14px; margin-top: 8px;">Figure 1-2-1: User Question</p>
 
 **Node Description**
 
@@ -79,13 +72,11 @@ The color of a node is closely related to its type. Below are all the colors of 
 <img src='/img/agent-1-3-7.png' width=45%></img>
 </center>
 
-<p style="text-align: center; color: #666; font-size: 14px; margin-top: 8px;">Figure 1-2-1: User Question</p>
 
 <center>
 <img src='/img/agent-1-3-8.png' width=45%></img>
 </center>
 
-<p style="text-align: center; color: #666; font-size: 14px; margin-top: 8px;">Figure 1-2-1: User Question</p>
 
 * Yellow nodes: Boolean type values, connect with other Boolean type nodes
 * Blue nodes: String type, can be subdivided into text information, image information, and document information, connect with other nodes of the same information type
