@@ -10,7 +10,7 @@ title: 官方工具
 
 爬虫工具帮助用户从目标网页提取结构化数据，并结合 Agent 的能力进行进一步处理。具体使用入口如下：
 <center>
-<img src='/img/tool-1-1.jpg' width=100%></img>
+<img src='/img/toolkit/1.jpg' width=100%></img>
 </center>
 
 <p style="text-align: center; color: #666; font-size: 14px; margin-top: 8px;">图1-1：网页抓取入口</p>
@@ -20,7 +20,7 @@ title: 官方工具
 1. 进入首页，点击「**新建抓取任务**」按钮。
 2. 进入爬虫配置页。
 <center>
-<img src='/img/tool-1-2.jpg' width=100%></img>
+<img src='/img/toolkit/2.jpg' width=100%></img>
 </center>
 
 <p style="text-align: center; color: #666; font-size: 14px; margin-top: 8px;">图1-2：网页抓取配置页</p>

@@ -10,7 +10,7 @@ The platform provides a variety of built-in tools that you can use directly in t
 
 Crawler tools help users extract structured data from target web pages and combine it with the Agent's capabilities for further processing. The specific entry point is as follows:
 <center>
-<img src='/img/tool-1-1.jpg' width=100%></img>
+<img src='/img/toolkit/1.jpg' width=100%></img>
 </center>
 
 <p style="text-align: center; color: #666; font-size: 14px; margin-top: 8px;">Figure 1-1: Web Crawling Entry Point</p>
@@ -20,7 +20,7 @@ Crawler tools help users extract structured data from target web pages and combi
 1. Go to the homepage and click the "**New Crawling Task**" button.
 2. Enter the crawler configuration page.
 <center>
-<img src='/img/tool-1-2.jpg' width=100%></img>
+<img src='/img/toolkit/2.jpg' width=100%></img>
 </center>
 
 <p style="text-align: center; color: #666; font-size: 14px; margin-top: 8px;">Figure 1-2: Web Crawling Configuration Page</p>

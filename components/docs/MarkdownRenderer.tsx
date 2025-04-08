@@ -258,7 +258,7 @@ const MarkdownRenderer: React.FC<MarkdownRendererProps> = ({ content }) => {
           width={0}
           height={0}
           sizes="100vw"
-          className="rounded-lg shadow-[0_2px_8px_rgba(0,0,0,0.1)] my-4 w-auto h-auto"
+          className="rounded-lg shadow-[2px_2px_8px_rgba(0,0,0,0.2)] my-4 w-auto h-auto"
           priority={false}
         />
       );

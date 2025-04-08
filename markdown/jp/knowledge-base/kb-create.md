@@ -10,50 +10,55 @@ title: ナレッジベースの作成
 2. 名前と説明を入力し、ナレッジベースのタイプを選択（一般、コード、専門など）
 
 <center>
-<img src='/img/kb-1-1.png' width=100%></img>
+<img src='/img/knowledge-base/1.jpg' width=90%></img>
 </center>
 
-<p style="text-align: center; color: #666; font-size: 14px; margin-top: 8px;">図1-1：ナレッジベース作成入口</p>
+<p style="text-align: center; color: #666; font-size: 14px; margin-top: 8px;">ナレッジベース作成入口</p>
 
 <center>
-<img src='/img/kb-1-2.jpg' width=50%></img>
+<img src='/img/knowledge-base/2.jpg' width=100%></img>
 </center>
 
-<p style="text-align: center; color: #666; font-size: 14px; margin-top: 8px;">図1-2：ナレッジベース作成設定インターフェース（自動）</p>
+<p style="text-align: center; color: #666; font-size: 14px; margin-top: 8px;">ナレッジベース作成設定インターフェース（自動）</p>
 
 <center>
-<img src='/img/kb-1-3.jpg' width=50%></img>
+<img src='/img/knowledge-base/3.jpg' width=100%></img>
 </center>
 
-<p style="text-align: center; color: #666; font-size: 14px; margin-top: 8px;">図1-3：ナレッジベース作成設定インターフェース（手動）</p>
+<p style="text-align: center; color: #666; font-size: 14px; margin-top: 8px;">ナレッジベース作成設定インターフェース（手動）</p>
 
 - **解析方法**：デフォルトは一般的で、法律、論文、書籍、マニュアル、FAQなどのオプションがあります。<span style="color:red">注意：一度埋め込みモデルを選択してファイルの埋め込みに使用すると、その埋め込みモデルを変更することはできません。特定のナレッジベース内のすべてのファイルに同じ埋め込みモデルを使用して埋め込みを行い、同じ埋め込み空間内で類似性を比較して関連コンテンツを検索できるようにする必要があります。</span>
 - **埋め込みモデルの指定**：埋め込みモデルは、テキストをベクトル（数値形式）に変換するアルゴリズムで、テキスト内の意味情報をキャプチャするために使用されます。埋め込みモデルを指定する意義は、テキストが高次元空間にどのように埋め込まれるかを決定し、類似するテキストコンテンツがこの空間内で近接するようにすることです。
 - **ブロックトークン数の設定**：ブロックトークン数とは、ドキュメントを処理する際に、システムがテキストを複数の「ブロック」（またはセグメント）に分割し、各ブロックに含まれるトークン（単語または部分単語）の数を指します。トークンはモデルがテキストを処理する際の最小単位であり、完全な単語または単語の一部である場合があります。ブロックトークン数を設定する目的は、ドキュメントのサイズと処理効率を管理することです。ブロックトークン数が多いとより多くのコンテンツを収容できますが、計算の複雑さが増す可能性があります。一方、ブロックトークン数が少ないとより細かくテキストを分析できますが、ドキュメント全体を処理するために多くのブロックが必要になる場合があります。ブロックトークン数を適切に設定することで、処理の精度と効率のバランスを取ることができます。
 
+<div style="text-align: center; margin: 30px 0;">
+  <img src="/img/knowledge-base/4.jpg" width="100%"/>
+</div>
 
 # ファイルのアップロード
 - ナレッジベースの「データセット」ページに入る
 - 「アップロード」をクリックしてファイルを選択
 - アップロード完了後、「ナレッジベースに更新」をクリック
-<center>
-<img src='/img/kb-1-4.png' width=100%></img>
-</center>
+- 
+<div style="text-align: center; margin: 30px 0;">
+  <img src="/img/knowledge-base/5.jpg" width="100%"/>
+</div>
 
-<p style="text-align: center; color: #666; font-size: 14px; margin-top: 8px;">図1-4：ナレッジベースへのファイルアップロード</p>
+<p style="text-align: center; color: #666; font-size: 14px; margin-top: 8px;">ナレッジベースへのファイルアップロード</p>
 
-<center>
-<img src='/img/kb-1-5.png' width=100%></img>
-</center>
+<div style="text-align: center; margin: 30px 0;">
+  <img src="/img/knowledge-base/6.jpg" width="100%"/>
+</div>
 
-<p style="text-align: center; color: #666; font-size: 14px; margin-top: 8px;">図1-5：ナレッジベースへのファイルアップロード</p>
+<p style="text-align: center; color: #666; font-size: 14px; margin-top: 8px;">ナレッジベースへのファイルアップロード</p>
 
 # ファイルの解析
 - ファイルの「解析」ボタンをクリック
 - システムは自動的にデータをスライスして埋め込む
 - 解析が成功すると、ステータスが「成功」に更新され、ファイルの内容を検索できるようになる
-<center>
-<img src='/img/kb-1-6.png' width=100%></img>
-</center>
 
-<p style="text-align: center; color: #666; font-size: 14px; margin-top: 8px;">図1-6：ナレッジベースでのファイル解析</p>
+<div style="text-align: center; margin: 30px 0;">
+  <img src="/img/knowledge-base/7.jpg" width="100%"/>
+</div>
+
+<p style="text-align: center; color: #666; font-size: 14px; margin-top: 8px;">ナレッジベースでのファイル解析</p>
