@@ -3,28 +3,31 @@ import MarkdownPage from '@/components/docs/MarkdownPage';
 import { notFound, redirect } from 'next/navigation';
 import { Locale } from '@/i18n/locale';
 
-// 移除自定义接口，使用更灵活的类型
-export default async function DocPage({ 
-  params 
-}: { 
-  params: { slug?: string[]; locale: string } 
-}) {
+// 使用Props类型并标记为异步
+type DocPageProps = {
+  params: {
+    slug?: string[];
+    locale: string;
+  };
+};
+
+export default async function DocPage({ params }: DocPageProps) {
   try {
-    // 直接使用解构获取参数
-    const { slug, locale } = params;
+    // 确保params已经加载完成
+    const slugValue = params?.slug || [];
+    const localeValue = params?.locale as Locale || 'zh';
     
     // 处理不同路径的逻辑
-    let path;
-    if (!slug || slug.length === 0) {
+    if (!slugValue.length) {
       // 重定向到快速开始页面
-      redirect(`/${locale}/docs/getting-started`);
-    } else {
-      // 处理其他路径
-      path = `${slug.join('/')}`;
+      redirect(`/${localeValue}/docs/getting-started`);
     }
     
+    // 处理其他路径
+    const path = slugValue.join('/');
+    
     // 加入语言前缀，从对应语言目录加载内容
-    const localizedPath = `${locale}/${path}`;
+    const localizedPath = `${localeValue}/${path}`;
     
     const { content, frontmatter } = await getMarkdownContent(localizedPath);
 
