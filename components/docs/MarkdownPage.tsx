@@ -55,10 +55,18 @@ export default function MarkdownPage({ markdownPath, hideTitle = false }: Markdo
     fetchMarkdown();
   }, [pathname, markdownPath]);
 
+  // 指定字体样式
+  const fontStyle = { 
+    fontFamily: 'ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji' 
+  };
+
   return (
-    <div>
+    <div className="w-full max-w-full overflow-hidden ">
       <Breadcrumb />
-      <article className="prose prose-slate max-w-3xl mx-auto px-8 py-10">
+      <article 
+        className="prose prose-slate lg:prose-lg mx-6 py-4 sm:py-0 max-w-none px-4 md:px-6 lg:px-8" 
+        style={fontStyle}
+      >
         {isLoading ? (
           <div className="flex justify-center py-12">
             <LoadingSpinner size={50} color="#8B5CF6" thickness={4} />
@@ -67,12 +75,14 @@ export default function MarkdownPage({ markdownPath, hideTitle = false }: Markdo
           <div className="text-red-500">{error}</div>
         ) : (
           <>
-            {!hideTitle && (
-              <h1 className="text-3xl font-semibold mb-6">
+            {!hideTitle && frontmatter.hideTitle !== true && (
+              <h1 className="text-3xl sm:text-4xl font-semibold mb-4 sm:mb-6 break-words">
                 {frontmatter.title || '文档'}
               </h1>
             )}
-            <MarkdownRenderer content={content} />
+            <div className="overflow-x-auto">
+              <MarkdownRenderer content={content} />
+            </div>
           </>
         )}
       </article>

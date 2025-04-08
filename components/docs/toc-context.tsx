@@ -2,6 +2,7 @@
 
 import React, { createContext, useState, useContext, useEffect, useRef } from 'react';
 import { usePathname } from 'next/navigation';
+import { getLocale } from '@/i18n/locale';
 
 export interface TocItem {
   id: string;
@@ -12,11 +13,22 @@ export interface TocItem {
 interface TocContextType {
   items: TocItem[];
   updateItems: (items: TocItem[]) => void;
+  isTocOpen: boolean;
+  setTocOpen: (open: boolean) => void;
 }
 
 const defaultContext: TocContextType = {
   items: [],
   updateItems: () => {},
+  isTocOpen: false,
+  setTocOpen: () => {},
+};
+
+// 需要过滤的标题（包含各语言版本）
+const excludedTitles = {
+  zh: ['本页导航', '产品与服务', '开发者资源', '关于我们', '灵搭平台'],
+  en: ['On This Page', 'Products & Services', 'Developer Resources', 'About Us', 'Auto Agents Platform'],
+  jp: ['このページ内', '製品とサービス', '開発者リソース', '私たちについて', 'プラットフォーム']
 };
 
 const TocContext = createContext<TocContextType>(defaultContext);
@@ -25,16 +37,48 @@ export const useToc = () => useContext(TocContext);
 
 export function TocProvider({ children }: { children: React.ReactNode }) {
   const [items, setItems] = useState<TocItem[]>([]);
+  const [isTocOpen, setTocOpen] = useState(false);
   const pathname = usePathname();
   const processingRef = useRef(false); // 使用ref防止并发处理
+  const locale = getLocale(pathname);
   
   // 当路径变化时重置目录
   useEffect(() => {
     setItems([]);
   }, [pathname]);
 
+  // 监听自定义事件，用于在移动端关闭目录
+  useEffect(() => {
+    // 确保在客户端环境
+    if (typeof window === 'undefined') return;
+    
+    const handleToggleToc = (event: CustomEvent) => {
+      if (event.detail && typeof event.detail.open === 'boolean') {
+        setTocOpen(event.detail.open);
+        
+        // 更新body的属性，用于CSS选择器和其他组件
+        if (event.detail.open) {
+          document.body.setAttribute('data-toc-open', 'true');
+        } else {
+          document.body.removeAttribute('data-toc-open');
+        }
+      }
+    };
+
+    // 添加事件监听
+    window.addEventListener('toggle-toc', handleToggleToc as EventListener);
+    
+    // 清理函数
+    return () => {
+      window.removeEventListener('toggle-toc', handleToggleToc as EventListener);
+    };
+  }, []);
+
   // 自动扫描页面中的标题元素并生成目录
   useEffect(() => {
+    // 确保在客户端环境
+    if (typeof window === 'undefined') return;
+    
     // 防止无限循环更新
     if (processingRef.current) {
       return;
@@ -66,10 +110,9 @@ export function TocProvider({ children }: { children: React.ReactNode }) {
           let headingId = heading.id;
           const title = heading.textContent || `Heading ${index + 1}`;
           
-          // 排除页面标题"本页导航"、"On This Page"和已添加的相同标题
+          // 排除应该过滤的标题
           if (
-            title === "On This Page" || 
-            title === "本页导航" || 
+            excludedTitles[locale as keyof typeof excludedTitles]?.includes(title) || 
             addedTitles.has(title)
           ) {
             return;
@@ -116,7 +159,7 @@ export function TocProvider({ children }: { children: React.ReactNode }) {
     }, 100);
 
     return () => clearTimeout(timeoutId);
-  }, [pathname, items]);
+  }, [pathname, items, locale]);
 
   // 实现更新项目方法
   const updateItemsHandler = (newItems: TocItem[]) => {
@@ -132,11 +175,10 @@ export function TocProvider({ children }: { children: React.ReactNode }) {
       const uniqueTitles = new Set();
       const uniqueIds = new Set();
       const validItems = newItems.filter((item, index) => {
-        // 跳过无效条目、"本页导航"和"On This Page"
+        // 跳过应该过滤的标题
         if (
           !item.title || 
-          item.title === "On This Page" || 
-          item.title === "本页导航"
+          excludedTitles[locale as keyof typeof excludedTitles]?.includes(item.title)
         ) {
           return false;
         }
@@ -171,8 +213,38 @@ export function TocProvider({ children }: { children: React.ReactNode }) {
     }
   };
 
+  // 更新目录打开/关闭状态的处理程序
+  const handleTocToggle = (open: boolean) => {
+    // 设置状态前确保没有冲突的操作
+    setTocOpen(open);
+    
+    // 确保在客户端环境
+    if (typeof window !== 'undefined') {
+      // 延迟触发自定义事件，避免可能的冲突
+      setTimeout(() => {
+        // 同时触发自定义事件，用于通知其他组件
+        const tocToggleEvent = new CustomEvent('toggle-toc', { detail: { open } });
+        window.dispatchEvent(tocToggleEvent);
+        
+        // 更新body属性
+        if (open) {
+          document.body.setAttribute('data-toc-open', 'true');
+        } else {
+          document.body.removeAttribute('data-toc-open');
+        }
+      }, 0);
+    }
+  };
+
   return (
-    <TocContext.Provider value={{ items, updateItems: updateItemsHandler }}>
+    <TocContext.Provider 
+      value={{ 
+        items, 
+        updateItems: updateItemsHandler,
+        isTocOpen,
+        setTocOpen: handleTocToggle
+      }}
+    >
       {children}
     </TocContext.Provider>
   );

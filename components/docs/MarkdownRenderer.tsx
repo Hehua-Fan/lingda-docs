@@ -6,9 +6,9 @@ import remarkGfm from 'remark-gfm';
 import rehypeRaw from 'rehype-raw';
 import CodeBlock from './CodeBlock';
 import { useToc } from './toc-context';
-import slug from 'slug';
 import type { Components } from 'react-markdown';
 import Image from 'next/image';
+import HeadingWithAnchor from './HeadingWithAnchor';
 
 interface MarkdownRendererProps {
   content: string;
@@ -21,11 +21,9 @@ function generateStableId(text: string, position: number): string {
   // 移除HTML标签
   const plainText = text.replace(/<[^>]*>/g, '');
   
-  // 生成基础slug
-  const baseSlug = slug(plainText, { lower: true }) || 'heading';
-  
-  // 对于相同标题文本，使用位置作为区分
-  return `${baseSlug}-${position}`;
+  // 使用原始文本，但确保它可以作为有效的ID和URL
+  // 这会保留大部分原始文本，但替换URL中不安全的字符
+  return encodeURIComponent(plainText);
 }
 
 const MarkdownRenderer: React.FC<MarkdownRendererProps> = ({ content }) => {
@@ -63,6 +61,34 @@ const MarkdownRenderer: React.FC<MarkdownRendererProps> = ({ content }) => {
     const timer = setTimeout(collectHeadings, 100);
     return () => clearTimeout(timer);
   }, [processedContent, updateItems]);
+  
+  // 处理初始加载时的哈希滚动，考虑header高度
+  useEffect(() => {
+    // 延迟执行，确保DOM已经完全加载
+    const timer = setTimeout(() => {
+      if (typeof window !== 'undefined' && window.location.hash) {
+        const id = decodeURIComponent(window.location.hash.substring(1));
+        const element = document.getElementById(id);
+        
+        if (element) {
+          // Header高度
+          const headerHeight = 64;
+          
+          // 计算元素距离顶部的位置，并减去header高度
+          const elementPosition = element.getBoundingClientRect().top + window.scrollY;
+          const offsetPosition = elementPosition - headerHeight;
+          
+          // 滚动到该位置
+          window.scrollTo({
+            top: offsetPosition,
+            behavior: 'smooth'
+          });
+        }
+      }
+    }, 200);
+    
+    return () => clearTimeout(timer);
+  }, [processedContent]); // 当内容变化时重新执行
   
   // 预处理Markdown内容，提取所有标题
   const headings: {text: string, level: number, position: number}[] = [];
@@ -143,7 +169,7 @@ const MarkdownRenderer: React.FC<MarkdownRendererProps> = ({ content }) => {
     
     // 可以自定义其他 Markdown 元素的渲染
     h1(props) {
-      const { children, ...rest } = props;
+      const { children } = props;
       // 寻找匹配的预处理标题
       const text = String(children || '');
       const headingIndex = headings.findIndex(h => h.level === 1 && h.text === text);
@@ -152,15 +178,10 @@ const MarkdownRenderer: React.FC<MarkdownRendererProps> = ({ content }) => {
       // 使用位置信息生成稳定ID
       const id = generateStableId(text, position);
       
-      return (
-        <>
-          <h1 id={id} className="text-3xl font-semibold mb-4 mt-10" {...rest}>{children}</h1>
-          <hr className="border-t border-gray-300 my-4" />
-        </>
-      );
+      return <HeadingWithAnchor id={id} level={1}>{children}</HeadingWithAnchor>;
     },
     h2(props) {
-      const { children, ...rest } = props;
+      const { children } = props;
       // 寻找匹配的预处理标题
       const text = String(children || '');
       const headingIndex = headings.findIndex(h => h.level === 2 && h.text === text);
@@ -169,10 +190,10 @@ const MarkdownRenderer: React.FC<MarkdownRendererProps> = ({ content }) => {
       // 使用位置信息生成稳定ID
       const id = generateStableId(text, position);
       
-      return <h2 id={id} className="text-2xl font-medium mt-8 mb-4" {...rest}>{children}</h2>;
+      return <HeadingWithAnchor id={id} level={2}>{children}</HeadingWithAnchor>;
     },
     h3(props) {
-      const { children, ...rest } = props;
+      const { children } = props;
       // 寻找匹配的预处理标题
       const text = String(children || '');
       const headingIndex = headings.findIndex(h => h.level === 3 && h.text === text);
@@ -181,19 +202,19 @@ const MarkdownRenderer: React.FC<MarkdownRendererProps> = ({ content }) => {
       // 使用位置信息生成稳定ID
       const id = generateStableId(text, position);
       
-      return <h3 id={id} className="text-xl font-medium mt-6 mb-4" {...rest}>{children}</h3>;
+      return <HeadingWithAnchor id={id} level={3}>{children}</HeadingWithAnchor>;
     },
     ul(props) {
-      return <ul className="list-disc pl-5 mb-4 space-y-2" {...props} />;
+      return <ul className="list-disc pl-6.5 mb-4 space-y-2 font-light" {...props} />;
     },
     ol(props) {
-      return <ol className="list-decimal pl-5 mb-4 space-y-2" {...props} />;
+      return <ol className="list-decimal pl-6.5 mb-4 space-y-2 font-light" {...props} />;
     },
     li(props) {
-      return <li className="text-black mt-2 mb-2" {...props} />;
+      return <li className="text-black mt-2 mb-2 font-light" {...props} />;
     },
     blockquote(props) {
-      return <blockquote className="border-l-4 border-purple-300 pl-4 italic text-gray-700 my-4" {...props} />;
+      return <blockquote className="border-l-4 border-[#e6e9fd] pl-4 italic text-gray-700 my-4 font-light" {...props} />;
     },
     table(props) {
       return (
@@ -243,18 +264,26 @@ const MarkdownRenderer: React.FC<MarkdownRendererProps> = ({ content }) => {
       );
     },
     a(props) {
-      return <a className="text-purple-600 hover:text-purple-700 hover:underline" {...props} />;
+      return <a className="text-[#4f47f5] underline decoration-[1px] underline-offset-3 hover:text-[#4f47f5]/80 hover:no-underline" {...props} />;
+    },
+    p(props) {
+      return <p className="mb-4 text-black leading-7 font-light" {...props} />;
+    },
+    strong(props) {
+      return <strong className="font-semibold" {...props} />;
     },
   };
   
   return (
-    <ReactMarkdown
-      remarkPlugins={[remarkGfm]}
-      rehypePlugins={[rehypeRaw]}
-      components={components}
-    >
-      {processedContent}
-    </ReactMarkdown>
+    <div className="markdown-body" style={{ fontFamily: 'ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji' }}>
+      <ReactMarkdown
+        remarkPlugins={[remarkGfm]}
+        rehypePlugins={[rehypeRaw]}
+        components={components}
+      >
+        {processedContent}
+      </ReactMarkdown>
+    </div>
   );
 };
 
