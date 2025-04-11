@@ -64,6 +64,10 @@ npm run dev
 
 ### 更新文档内容
 
+  <center>
+    <img src='public/img/image.png' width=100%></img>
+  </center>
+
 #### 更新Markdown文件
 
 1. Markdown文件位于以下目录：
@@ -87,7 +91,7 @@ npm run dev
    - 英文图片：`public/img/en/`
    - 日文图片：`public/img/jp/`
 2. 在Markdown中引用图片：
-   ```markdown
+   ```plaintext
   <center>
     <img src='/img/zh/knowledge-base/8.jpg' width=100%></img>
   </center>
