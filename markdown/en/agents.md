@@ -48,7 +48,7 @@ Agent configuration is divided into the following aspects:
 
 
 <div style="text-align: center; margin: 30px 0;">
-  <img src="/img/agent/create/basic-config/1.jpg" width="100%"/>
+  <img src="/img/en/agents/1.jpg" width="100%"/>
 </div>
 
 The configuration page allows you to adjust the basic information of the agent, including settings in the following dimensions:

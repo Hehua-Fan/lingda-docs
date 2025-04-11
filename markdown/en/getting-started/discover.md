@@ -9,17 +9,17 @@ This article will introduce how to discover and use example agents in the Auto A
 Click "Discover Agents" in the left menu to enter the "Agent Marketplace" page and browse publicly available example agents on the platform.
 
 <div style="text-align: center; margin: 30px 0;">
-  <img src="/img/getting-started/discover/1.jpg" width="100%"/>
+  <img src="/img/en/getting-started/discover/1.jpg" width="100%"/>
 </div>
 
 
 As shown in the image, click on any agent card that interests you (such as "Smart Resume Screening") to proceed with the experience.
 <div style="text-align: center; margin: 30px 0;">
-  <img src="/img/getting-started/discover/2.jpg" width="100%"/>
+  <img src="/img/en/getting-started/discover/2.jpg" width="100%"/>
 </div>
 
 Enter a question in the input box at the bottom of the interface, or click on recommended quick questions to interact with the agent and experience its real capabilities.
 
 <div style="text-align: center; margin: 30px 0;">
-  <img src="/img/getting-started/discover/3.jpg" width="100%"/>
+  <img src="/img/en/getting-started/discover/3.jpg" width="100%"/>
 </div> 

@@ -9,17 +9,17 @@ title: エージェントを見つける
 プラットフォームの左側メニューで「エージェントを見つける」をクリックすると、「エージェントマーケットプレイス」ページに入り、プラットフォームで公開されているサンプルエージェントを閲覧できます。
 
 <div style="text-align: center; margin: 30px 0;">
-  <img src="/img/getting-started/discover/1.jpg" width="100%"/>
+  <img src="/img/jp/getting-started/discover/1.jpg" width="100%"/>
 </div>
 
 
 図のように、興味のあるエージェントカード（例えば「スマート履歴書スクリーニング」）をクリックすると、その後の体験に進むことができます。
 <div style="text-align: center; margin: 30px 0;">
-  <img src="/img/getting-started/discover/2.jpg" width="100%"/>
+  <img src="/img/jp/getting-started/discover/2.jpg" width="100%"/>
 </div>
 
 インターフェース下部の入力ボックスに質問を入力するか、推奨されるクイック質問をクリックすると、エージェントとやり取りして、その実際の能力を体験できます。
 
 <div style="text-align: center; margin: 30px 0;">
-  <img src="/img/getting-started/discover/3.jpg" width="100%"/>
+  <img src="/img/jp/getting-started/discover/3.jpg" width="100%"/>
 </div>

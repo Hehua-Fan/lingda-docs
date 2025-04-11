@@ -10,7 +10,7 @@ title: 工作流规划
 
 
 <div style="text-align: center; margin: 30px 0;">
-  <img src="/img/agents/workflow/1.jpg" width="100%"/>
+  <img src="/img/zh/agents/workflow/1.jpg" width="100%"/>
 </div>
 
 
@@ -20,7 +20,7 @@ title: 工作流规划
   - 工具：将常用工具进行打包，扩充智能体链接第三方能力，企业也可以根据自身需要，自行开发工具。
 
 <div style="text-align: center; margin: 30px 0;">
-  <img src="/img/agents/workflow/2.jpg" width="100%"/>
+  <img src="/img/zh/agents/workflow/2.jpg" width="100%"/>
 </div>
 
 
@@ -29,7 +29,7 @@ title: 工作流规划
 - 如果连接错误，可点击线中间的 x 删除链接。
 
 <div style="text-align: center; margin: 30px 0;">
-  <img src="/img/agents/workflow/3.jpg" width="100%"/>
+  <img src="/img/zh/agents/workflow/3.jpg" width="100%"/>
 </div>
 
 
@@ -41,7 +41,7 @@ title: 工作流规划
 - 导入/导出：将该智能体的编排进行导入与导出。
 - 预览：进入预览对话窗口，进行快速对话调试。
 <center>
-<img src='/img/agents/workflow/4.jpg' width=45%></img>
+<img src='/img/zh/agents/workflow/4.jpg' width=45%></img>
 </center>
 
 
@@ -51,7 +51,7 @@ title: 工作流规划
 - 保存：保存智能体当前编排和配置。
 - 上架：将智能体上架到“智能体市场”中。
 <center>
-<img src='/img/agents/workflow/5.jpg' width=45%></img>
+<img src='/img/zh/agents/workflow/5.jpg' width=45%></img>
 </center>
 
 
@@ -61,7 +61,7 @@ title: 工作流规划
 - 中间部分模块设置区，在此设置模块的参数、提示词等内容
 - 右下角模块输出区，将模块执行后的信息输出
 <center>
-<img src='/img/agent-1-3-6.png' width=45%></img>
+<img src='/img/zh/agents/workflow/6.jpg' width=45%></img>
 </center>
 
 
@@ -70,12 +70,12 @@ title: 工作流规划
 节点的颜色与它的类型息息相关，在以下为平台所有节点的颜色与它的数值类型：
 
 <center>
-<img src='/img/agent-1-3-7.png' width=45%></img>
+<img src='/img/zh/agents/workflow/7.jpg' width=45%></img>
 </center>
 
 
 <center>
-<img src='/img/agent-1-3-8.png' width=45%></img>
+<img src='/img/zh/agents/workflow/8.jpg' width=45%></img>
 </center>
 
 

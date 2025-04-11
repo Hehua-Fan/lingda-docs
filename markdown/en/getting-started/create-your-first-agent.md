@@ -9,13 +9,13 @@ This article will introduce how to create your first agent in the Auto Agents Pl
 Click **"My Agents"** in the left menu to enter the platform homepage, then click **"Create Agent"** in the top right corner to start the creation process.
 
 <div style="text-align: center; margin: 30px 0;">
-  <img src="/img/getting-started/create-your-first-agent/1.jpg" width="100%"/>
+  <img src="/img/en/getting-started/create-your-first-agent/1.jpg" width="100%"/>
 </div>
 
 Click **"Configuration"** in the top menu to enter the agent configuration page. The page is in a WYSIWYG format, with the configuration information area on the left and a real-time preview window on the right.
 
 <div style="text-align: center; margin: 30px 0;">
-  <img src="/img/getting-started/create-your-first-agent/2.jpg" width="100%"/>
+  <img src="/img/en/getting-started/create-your-first-agent/2.jpg" width="100%"/>
 </div>
 
 Here are the key parameters to configure:
@@ -32,7 +32,7 @@ Here are the key parameters to configure:
 ## Example: SWOT Analysis Assistant
 
 <div style="text-align: center; margin: 30px 0;">
-  <img src="/img/getting-started/create-your-first-agent/3.jpg" width="100%"/>
+  <img src="/img/en/getting-started/create-your-first-agent/3.jpg" width="100%"/>
 </div>
 
 - Name: SWOT Analysis  
@@ -61,7 +61,7 @@ In the example, the platform has already connected the **"Text Information"** no
 After completing the configuration, click the **"Save"** button in the top right corner.
 
 <div style="text-align: center; margin: 30px 0;">
-  <img src="/img/getting-started/create-your-first-agent/4.jpg" width="100%"/>
+  <img src="/img/en/getting-started/create-your-first-agent/4.jpg" width="100%"/>
 </div>
 
 # Step 3: Conversation Testing

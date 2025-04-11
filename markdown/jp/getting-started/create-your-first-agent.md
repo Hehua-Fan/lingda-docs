@@ -9,13 +9,13 @@ title: 最初のエージェントを作成
 左側メニューの **「マイエージェント」** をクリックしてプラットフォームのホームページに入り、右上の **「エージェント作成」** をクリックして作成プロセスを開始します。
 
 <div style="text-align: center; margin: 30px 0;">
-  <img src="/img/getting-started/create-your-first-agent/1.jpg" width="100%"/>
+  <img src="/img/jp/getting-started/create-your-first-agent/1.jpg" width="100%"/>
 </div>
 
 トップメニューの **「設定」** をクリックしてエージェント設定ページに入ります。ページはWYSIWYG形式で、左側が設定情報エリア、右側がリアルタイムプレビューウィンドウとなっています。
 
 <div style="text-align: center; margin: 30px 0;">
-  <img src="/img/getting-started/create-your-first-agent/2.jpg" width="100%"/>
+  <img src="/img/jp/getting-started/create-your-first-agent/2.jpg" width="100%"/>
 </div>
 
 以下は設定すべき主要なパラメータです：
@@ -34,7 +34,7 @@ title: 最初のエージェントを作成
 ## 例：SWOT分析アシスタント
 
 <div style="text-align: center; margin: 30px 0;">
-  <img src="/img/getting-started/create-your-first-agent/3.jpg" width="100%"/>
+  <img src="/img/jp/getting-started/create-your-first-agent/3.jpg" width="100%"/>
 </div>
 
 - 名前：SWOT分析  
@@ -63,7 +63,7 @@ title: 最初のエージェントを作成
 設定が完了したら、右上の **「保存」** ボタンをクリックします。
 
 <div style="text-align: center; margin: 30px 0;">
-  <img src="/img/getting-started/create-your-first-agent/4.jpg" width="100%"/>
+  <img src="/img/jp/getting-started/create-your-first-agent/4.jpg" width="100%"/>
 </div>
 
 # ステップ3：対話テスト

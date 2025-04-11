@@ -9,7 +9,7 @@ This paper will introduce how to implement multi-agent cooperation and external 
 Navigate to the Agent panel on the left to browse your agent library. Pick the ideal agents and drag them to the central canvas area. These selected agents will act as "child agents ", allowing you to easily build powerful multi-agent systems.
 
 <div>
-<img src="/img/agents/workflow/multiagents-and-tools/1.jpg" width="100%" />
+<img src="/img/en/agents/workflow/multiagents-and-tools/1.jpg" width="100%" />
 </div>
 
 ** Sub-agent structure and rules: **
@@ -42,7 +42,7 @@ Navigate to the Tools panel on the left and you will see a comprehensive library
 Here is a collection of all the tools available under your account, including self-developed and authorized resources.
 
 <div>
-<img src="/img/agents/workflow/multiagents-and-tools/2.jpg" width="100%" />
+<img src="/img/en/agents/workflow/multiagents-and-tools/2.jpg" width="100%" />
 </div>
 
 You can drag the tool onto the canvas to use it.

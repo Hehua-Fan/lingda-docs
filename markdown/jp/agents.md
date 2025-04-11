@@ -48,7 +48,7 @@ AI 智能体最终面向的是使用者，因此我们在画布编排过程中�
 
 
 <div style="text-align: center; margin: 30px 0;">
-  <img src="/img/agent/create/basic-config/1.jpg" width="100%"/>
+  <img src="/img/jp/agents//1.jpg" width="100%"/>
 </div>
 
 配置页面可以对智能体的基本信息进行调整，这里包括以下几个维度的设置：

@@ -13,7 +13,7 @@ Module divisions cover multiple dimensions including user input, AI processing, 
 During the conversation process, we often need to get the user's questions to understand user intent. With the "User Question" module, you can get user questions/selection content and transfer the content to other modules.
 
 <center>
-<img src='/img/agent-1-2-1.png' width=100%></img>
+<img src='/img/en/agents/workflow/module/1.jpg' width=100%></img>
 </center>
 
 | Parameter Name | Type | Function Description |
@@ -36,7 +36,7 @@ During the conversation process, we often need to get the user's questions to un
 The intelligent dialogue module leverages AI capabilities to process content sent by users through a large language model and reply to users with specified content.
 
 <center>
-<img src='/img/agent-1-2-3.png' width=45%></img>
+<img src='/img/en/agents/workflow/module/2.jpg' width=100%></img>
 </center>
 
 | Parameter Name | Type | Function Description |
@@ -61,7 +61,7 @@ The intelligent dialogue module leverages AI capabilities to process content sen
 When you need to reply specific content to the user, you can use the confirmed reply module, and the user will directly receive the content in the text box. If the reply content node links to an external information source, the linked information will override the input box information.
 
 <center>
-<img src='/img/agent-1-2-5.png' width=45%></img>
+<img src='/img/en/agents/workflow/module/3.jpg' width=100%></img>
 </center>
 
 | Parameter Name | Type | Function Description |
@@ -79,7 +79,7 @@ When you need to reply specific content to the user, you can use the confirmed r
 With the intelligent analysis of AI, user questions can be classified, and different operations can be performed for different types of questions, facilitating personalized processing.
 
 <center>
-<img src='/img/agent-1-2-7.png' width=45%></img>
+<img src='/img/en/agents/workflow/module/4.jpg' width=100%></img>
 </center>
 
 
@@ -104,7 +104,7 @@ With the intelligent analysis of AI, user questions can be classified, and diffe
 - Commonly used to extract search keywords, SQL statements, etc., can be combined with API, tools, and application modules to implement complex functionality
 
 <center>
-<img src='/img/agent-1-2-9.png' width=45%></img>
+<img src='/img/en/agents/workflow/module/5.jpg' width=100%></img>
 </center>
 
 
@@ -131,7 +131,7 @@ With the intelligent analysis of AI, user questions can be classified, and diffe
 Process information through prompts to obtain content that meets requirements.
 
 <center>
-<img src='/img/agent-1-2-11.png' width=45%></img>
+<img src='/img/en/agents/workflow/module/6.jpg' width=100%></img>
 </center>
 
 
@@ -155,7 +155,7 @@ Process information through prompts to obtain content that meets requirements.
 For common user questions, questions can be added to the knowledge base for easy search and retrieval. For the "Knowledge Base" module, this module can input user questions, search for related questions and answers in the knowledge base, and output in natural language.
 
 <center>
-<img src='/img/agent-1-2-13.png' width=45%></img>
+<img src='/img/en/agents/workflow/module/7.jpg' width=100%></img>
 </center>
 
 
@@ -179,6 +179,10 @@ For common user questions, questions can be added to the knowledge base for easy
 
 ## Store to Knowledge Base
 
+<center>
+<img src='/img/en/agents/workflow/module/8.jpg' width=100%></img>
+</center>
+
 # Multimodal
 
 ## Image Question  
@@ -186,7 +190,7 @@ For common user questions, questions can be added to the knowledge base for easy
 Supports users uploading images and, with the help of visual models' image recognition capabilities, replies to question information about the images.
 
 <center>
-<img src='/img/agent-1-2-17.png' width=45%></img>
+<img src='/img/en/agents/workflow/module/9.jpg' width=100%></img>
 </center>
 
 | Parameter Name | Type | Function Description |
@@ -212,7 +216,7 @@ Supports users uploading images and, with the help of visual models' image recog
 Supports users uploading documents and directly inputting questions, using large language models to read the documents and reply to users. For example, "Summarize the key points in this document" achieves instant document questioning functionality. Unlike the "Document Review" module, here users can input their own questions, while "Document Review" has preset questions, without the need to input questions here.
 
 <center>
-<img src='/img/agent-1-2-19.png' width=45%></img>
+<img src='/img/en/agents/workflow/module/10.jpg' width=100%></img>
 </center>
 
 | Parameter Name | Type | Function Description |
@@ -236,7 +240,7 @@ Supports users uploading documents and directly inputting questions, using large
 Used for document reading and review scenarios, after users upload documents, the model reads the document content and answers a series of preset questions.
 
 <center>
-<img src='/img/agent-1-2-15.png' width=45%></img>
+<img src='/img/en/agents/workflow/module/11.jpg' width=100%></img>
 </center>
 
 | Parameter Name | Type | Function Description |
@@ -257,7 +261,7 @@ Used for document reading and review scenarios, after users upload documents, th
 Recognizes whether the document contains relevant keywords
 
 <center>
-<img src='/img/agent-1-2-21.png' width=45%></img>
+<img src='/img/en/agents/workflow/module/12.jpg' width=100%></img>
 </center>
 
 | Parameter Name | Type | Function Description |
@@ -277,11 +281,11 @@ Recognizes whether the document contains relevant keywords
 - Memory variables are temporary variables stored in the current scenario. When appearing as an Agent in other Agents' arrangements, memory variables represent the output parameters of that Agent, enabling cross-Agent references.
 
 <center>
-<img src='/img/agent-1-2-23.png' width=45%></img>
+<img src='/img/en/agents/workflow/module/13.jpg' width=100%></img>
 </center>
 
 <center>
-<img src='/img/agent-1-2-24.png' width=100%></img>
+<img src='/img/en/agents/workflow/module/14.jpg' width=100%></img>
 </center>
 
 <p style="text-align: center; color: #666; font-size: 14px; margin-top: 8px;">As an Agent in other canvas planning, this popup will appear for confirmation during execution</p>
@@ -297,12 +301,16 @@ Recognizes whether the document contains relevant keywords
 
 ## Add Memory Variables
 
+<center>
+<img src='/img/en/agents/workflow/module/15.jpg' width=100%></img>
+</center>
+
 ## Code Block  
 
 - Process data by adding JavaScript or Python code
 
 <center>
-<img src='/img/agent-1-2-26.png' width=45%></img>
+<img src='/img/en/agents/workflow/module/16.jpg' width=100%></img>
 </center>
 
 | Parameter Name | Type | Function Description |
@@ -325,7 +333,7 @@ Recognizes whether the document contains relevant keywords
 - Process data using regular expressions, only supports string type input and output.
 
 <center>
-<img src='/img/agent-1-2-28.png' width=45%></img>
+<img src='/img/en/agents/workflow/module/17.jpg' width=100%></img>
 </center>
 
 | Parameter Name | Type | Function Description |
@@ -342,7 +350,7 @@ Recognizes whether the document contains relevant keywords
 - Loop component is used for loop processes. Users select the processes that need loop processing with the loop component's loop start point and loop end point, initiating the loop process.
 
 <center>
-<img src='/img/agent-1-2-30.png' width=45%></img>
+<img src='/img/en/agents/workflow/module/18.jpg' width=100%></img>
 </center>
 
 | Parameter Name | Type | Function Description |
@@ -359,10 +367,31 @@ Recognizes whether the document contains relevant keywords
 
 ## Document Output
 
+<center>
+<img src='/img/en/agents/workflow/module/19.jpg' width=100%></img>
+</center>
+
 ## Markdown to Word
+
+<center>
+<img src='/img/en/agents/workflow/module/20.jpg' width=100%></img>
+</center>
 
 # Database
 ## Database Query
+
+<center>
+<img src='/img/en/agents/workflow/module/21.jpg' width=100%></img>
+</center>
+
 ## Data Visualization
+
+<center>
+<img src='/img/en/agents/workflow/module/22.jpg' width=100%></img>
+</center>
+
 ## Code Extractor
 
+<center>
+<img src='/img/en/agents/workflow/module/23.jpg' width=100%></img>
+</center>

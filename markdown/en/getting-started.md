@@ -7,7 +7,7 @@ title: Auto Agents Platform Documentation Center
 Auto Agents Platform is an enterprise-level agent building platform launched by AutoAgents.ai, allowing you to quickly create, deploy, and manage high-performance AI agents without deep programming knowledge.
 
 <div style="text-align: center; margin: 30px 0;">
-  <img src="/img/welcome.jpg" width="100%" alt="Auto Agents Platform Overview" />
+  <img src="/img/en/getting-started/welcome.jpg" width="100%" alt="Auto Agents Platform Overview" />
 </div>
 
 # Why Choose Auto Agents Platform?

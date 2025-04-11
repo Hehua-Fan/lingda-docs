@@ -10,19 +10,19 @@ title: ナレッジベースの作成
 2. 名前と説明を入力し、ナレッジベースのタイプを選択（一般、コード、専門など）
 
 <center>
-<img src='/img/knowledge-base/1.jpg' width=90%></img>
+<img src='/img/jp/knowledge-base/1.jpg' width=90%></img>
 </center>
 
 <p style="text-align: center; color: #666; font-size: 14px; margin-top: 8px;">ナレッジベース作成入口</p>
 
 <center>
-<img src='/img/knowledge-base/2.jpg' width=100%></img>
+<img src='/img/jp/knowledge-base/2.jpg' width=100%></img>
 </center>
 
 <p style="text-align: center; color: #666; font-size: 14px; margin-top: 8px;">ナレッジベース作成設定インターフェース（自動）</p>
 
 <center>
-<img src='/img/knowledge-base/3.jpg' width=100%></img>
+<img src='/img/jp/knowledge-base/3.jpg' width=100%></img>
 </center>
 
 <p style="text-align: center; color: #666; font-size: 14px; margin-top: 8px;">ナレッジベース作成設定インターフェース（手動）</p>
@@ -32,7 +32,7 @@ title: ナレッジベースの作成
 - **ブロックトークン数の設定**：ブロックトークン数とは、ドキュメントを処理する際に、システムがテキストを複数の「ブロック」（またはセグメント）に分割し、各ブロックに含まれるトークン（単語または部分単語）の数を指します。トークンはモデルがテキストを処理する際の最小単位であり、完全な単語または単語の一部である場合があります。ブロックトークン数を設定する目的は、ドキュメントのサイズと処理効率を管理することです。ブロックトークン数が多いとより多くのコンテンツを収容できますが、計算の複雑さが増す可能性があります。一方、ブロックトークン数が少ないとより細かくテキストを分析できますが、ドキュメント全体を処理するために多くのブロックが必要になる場合があります。ブロックトークン数を適切に設定することで、処理の精度と効率のバランスを取ることができます。
 
 <div style="text-align: center; margin: 30px 0;">
-  <img src="/img/knowledge-base/4.jpg" width="100%"/>
+  <img src="/img/jp/knowledge-base/4.jpg" width="100%"/>
 </div>
 
 # ファイルのアップロード
@@ -41,13 +41,13 @@ title: ナレッジベースの作成
 - アップロード完了後、「ナレッジベースに更新」をクリック
 - 
 <div style="text-align: center; margin: 30px 0;">
-  <img src="/img/knowledge-base/5.jpg" width="100%"/>
+  <img src="/img/jp/knowledge-base/5.jpg" width="100%"/>
 </div>
 
 <p style="text-align: center; color: #666; font-size: 14px; margin-top: 8px;">ナレッジベースへのファイルアップロード</p>
 
 <div style="text-align: center; margin: 30px 0;">
-  <img src="/img/knowledge-base/6.jpg" width="100%"/>
+  <img src="/img/jp/knowledge-base/6.jpg" width="100%"/>
 </div>
 
 <p style="text-align: center; color: #666; font-size: 14px; margin-top: 8px;">ナレッジベースへのファイルアップロード</p>
@@ -58,7 +58,7 @@ title: ナレッジベースの作成
 - 解析が成功すると、ステータスが「成功」に更新され、ファイルの内容を検索できるようになる
 
 <div style="text-align: center; margin: 30px 0;">
-  <img src="/img/knowledge-base/7.jpg" width="100%"/>
+  <img src="/img/jp/knowledge-base/7.jpg" width="100%"/>
 </div>
 
 <p style="text-align: center; color: #666; font-size: 14px; margin-top: 8px;">ナレッジベースでのファイル解析</p>

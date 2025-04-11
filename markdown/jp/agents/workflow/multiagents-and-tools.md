@@ -9,7 +9,7 @@ title: マルチエージェントとツール呼び出し
 左側の「エージェント」パネルに移動し、エージェントライブラリを閲覧します。理想的なエージェントを選び、中央のキャンバスエリアにドラッグアンドドロップします。これらの選択されたエージェントは「サブエージェント」として機能し、強力なマルチエージェントシステムを簡単に構築できます。
 
 <div style="text-align: center; margin: 30px 0;">
-  <img src="/img/agents/workflow/multiagents-and-tools/1.jpg" width="100%"/>
+  <img src="/img/jp/agents/workflow/multiagents-and-tools/1.jpg" width="100%"/>
 </div>
 
 **サブエージェントの構成とルール：**
@@ -42,7 +42,7 @@ title: マルチエージェントとツール呼び出し
 ここには、あなたのアカウントで利用可能なすべてのツールが集約されており、自己開発と認可使用の両方のリソースが含まれています。
 
 <div style="text-align: center; margin: 30px 0;">
-  <img src="/img/agents/workflow/multiagents-and-tools/2.jpg" width="100%"/>
+  <img src="/img/jp/agents/workflow/multiagents-and-tools/2.jpg" width="100%"/>
 </div>
 
 ツールをキャンバスにドラッグアンドドロップして使用できます。

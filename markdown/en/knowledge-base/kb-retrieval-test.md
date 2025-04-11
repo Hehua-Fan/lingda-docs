@@ -5,13 +5,13 @@ title: Retrieval Testing
 After file parsing is complete, you can test the query effectiveness of the dataset on the retrieval testing page and debug the relevant parameters most suitable for your scenario requirements. Enter test text, click test to see the effect.
 
 <center>
-<img src='/img/kb-2-1.png' width=100%></img>
+<img src='/img/en/knowledge-base/8.jpg' width=100%></img>
 </center>
 
 <p style="text-align: center; color: #666; font-size: 14px; margin-top: 8px;">Figure 2-1: Knowledge Base Retrieval Testing</p>
 
 <center>
-<img src='/img/kb-2-2.png' width=100%></img>
+<img src='/img/en/knowledge-base/9.jpg' width=100%></img>
 </center>
 
 <p style="text-align: center; color: #666; font-size: 14px; margin-top: 8px;">Figure 2-2: Knowledge Base Retrieval Testing</p>

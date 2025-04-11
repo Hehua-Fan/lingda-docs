@@ -10,7 +10,7 @@ This article will introduce how to publish and externally call the agents you ha
 Click the "···" button in the upper right corner of the agent, and select **"Publish"** in the pop-up menu to enter the publication page.
 
 <div style="text-align: center; margin: 30px 0;">
-  <img src="/img/agents/publish/1.jpg" width="100%"/>
+  <img src="/img/en/agents/publish/1.jpg" width="100%"/>
 </div>
 
 
@@ -26,7 +26,7 @@ Click the "···" button in the upper right corner of the agent, and select **"
    - **Link Password** (optional, support enable/disable)
 
 <div style="text-align: center; margin: 30px 0;">
-  <img src="/img/agents/publish/2.jpg" width="100%"/>
+  <img src="/img/en/agents/publish/2.jpg" width="100%"/>
 </div>
 
 ## Link Operations
@@ -40,7 +40,7 @@ Click the "···" button in the upper right corner of the agent, and select **"
   - Delete link
 
 <div style="text-align: center; margin: 30px 0;">
-  <img src="/img/agents/publish/3.jpg" width="100%"/>
+  <img src="/img/en/agents/publish/3.jpg" width="100%"/>
 </div>
 
 ---
@@ -55,7 +55,7 @@ The platform supports accessing agents through APIs, suitable for system integra
 - **Creation Time**: Used to record when the API was created  
 
 <div style="text-align: center; margin: 30px 0;">
-  <img src="/img/agents/publish/4.jpg" width="100%"/>
+  <img src="/img/en/agents/publish/4.jpg" width="100%"/>
 </div>
 
 > Operations available through action buttons: Copy, Refresh Keys, Delete API Information  

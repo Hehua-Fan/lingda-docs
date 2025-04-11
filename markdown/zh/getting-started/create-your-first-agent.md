@@ -9,13 +9,13 @@ title: 创建属于您的第一个智能体
 在左侧菜单点击 **“我的智能体”**，进入平台主页，然后点击右上角 **“创建智能体”**，进入创建流程。
 
 <div style="text-align: center; margin: 30px 0;">
-  <img src="/img/getting-started/create-your-first-agent/1.jpg" width="100%"/>
+  <img src="/img/zh/getting-started/create-your-first-agent/1.jpg" width="100%"/>
 </div>
 
 点击顶部菜单中的 **“配置”**，进入智能体配置页面。页面采用所见即所得的形式，左侧为配置信息区域，右侧为实时预览窗口。
 
 <div style="text-align: center; margin: 30px 0;">
-  <img src="/img/getting-started/create-your-first-agent/2.jpg" width="100%"/>
+  <img src="/img/zh/getting-started/create-your-first-agent/2.jpg" width="100%"/>
 </div>
 
 以下是需要配置的关键参数：
@@ -34,7 +34,7 @@ title: 创建属于您的第一个智能体
 ## 示例：SWOT分析助手
 
 <div style="text-align: center; margin: 30px 0;">
-  <img src="/img/getting-started/create-your-first-agent/3.jpg" width="100%"/>
+  <img src="/img/zh/getting-started/create-your-first-agent/3.jpg" width="100%"/>
 </div>
 
 - 名称：SWOT分析  
@@ -63,7 +63,7 @@ title: 创建属于您的第一个智能体
 配置完成后，点击右上角 **“保存”** 按钮即可。
 
 <div style="text-align: center; margin: 30px 0;">
-  <img src="/img/getting-started/create-your-first-agent/4.jpg" width="100%"/>
+  <img src="/img/zh/getting-started/create-your-first-agent/4.jpg" width="100%"/>
 </div>
 
 # 第三步：对话测试

@@ -10,7 +10,7 @@ title: 公式ツール
 
 クローラーツールはユーザーがターゲットWebページから構造化データを抽出し、エージェントの能力と組み合わせてさらに処理することを支援します。具体的な使用入口は以下の通りです：
 <center>
-<img src='/img/toolkit/1.jpg' width=100%></img>
+<img src='/img/jp/toolkit/1.jpg' width=100%></img>
 </center>
 
 <p style="text-align: center; color: #666; font-size: 14px; margin-top: 8px;">図1-1：Webスクレイピング入口</p>
@@ -20,7 +20,7 @@ title: 公式ツール
 1. ホームページに入り、「**新規スクレイピングタスク**」ボタンをクリックします。
 2. クローラー設定ページに入ります。
 <center>
-<img src='/img/toolkit/2.jpg' width=100%></img>
+<img src='/img/jp/toolkit/2.jpg' width=100%></img>
 </center>
 
 <p style="text-align: center; color: #666; font-size: 14px; margin-top: 8px;">図1-2：Webスクレイピング設定ページ</p>

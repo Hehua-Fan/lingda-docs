@@ -7,7 +7,7 @@ title: 灵搭平台文档中心
 灵搭平台是由 AutoAgents.ai 推出的企业级智能体构建平台，让您可以快速创建、部署和管理高性能的AI智能体，无需深厚的编程知识。
 
 <div style="text-align: center; margin: 30px 0;">
-  <img src="/img/welcome.jpg" width="100%" alt="灵搭平台概览" />
+  <img src="/img/zh/getting-started/welcome.jpg" width="100%" alt="灵搭平台概览" />
 </div>
 
 # 为什么选择灵搭平台?

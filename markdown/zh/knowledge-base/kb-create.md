@@ -10,18 +10,18 @@ title: 创建知识库
 2. 提供名称和描述，选择知识库类型（通用、代码、专业等）
 
 <center>
-<img src='/img/knowledge-base/1.jpg' width=90%></img>
+<img src='/img/zh/knowledge-base/1.jpg' width=90%></img>
 </center>
 
 <p style="text-align: center; color: #666; font-size: 14px; margin-top: 8px;">知识库创建入口</p>
 
 <center>
-<img src='/img/knowledge-base/2.jpg' width=100%></img>
+<img src='/img/zh/knowledge-base/2.jpg' width=100%></img>
 </center>
 <p style="text-align: center; color: #666; font-size: 14px; margin-top: 8px;">知识库创建配置界面（自动）</p>
 
 <center>
-<img src='/img/knowledge-base/3.jpg' width=100%></img>
+<img src='/img/zh/knowledge-base/3.jpg' width=100%></img>
 </center>
 
 <p style="text-align: center; color: #666; font-size: 14px; margin-top: 8px;">知识库创建配置界面（手动）</p>
@@ -31,7 +31,7 @@ title: 创建知识库
 - **设置块token数**：块Token数指的是在处理文档时，系统将文本分割成多个“块”（或片段），每个块包含的Token（词语或子词）数量。Token是模型在处理文本时的最小单位，它可以是一个完整的单词或词的一部分。设置块Token数的目的是为了管理文档的大小和处理效率。较大的块Token数可以容纳更多内容，但可能增加计算复杂性；而较小的块Token数则有助于更细粒度地分析文本，但可能需要更多的块来处理整个文档。合理设置块Token数可以平衡处理精度和效率。
 
 <div style="text-align: center; margin: 30px 0;">
-  <img src="/img/knowledge-base/4.jpg" width="100%"/>
+  <img src="/img/zh/knowledge-base/4.jpg" width="100%"/>
 </div>
 
 # 上传文件
@@ -40,13 +40,13 @@ title: 创建知识库
 - 上传完成后,点击"更新到知识库"
   
 <div style="text-align: center; margin: 30px 0;">
-  <img src="/img/knowledge-base/5.jpg" width="100%"/>
+  <img src="/img/zh/knowledge-base/5.jpg" width="100%"/>
 </div>
 
 <p style="text-align: center; color: #666; font-size: 14px; margin-top: 8px;">知识库上传文件</p>
 
 <div style="text-align: center; margin: 30px 0;">
-  <img src="/img/knowledge-base/6.jpg" width="100%"/>
+  <img src="/img/zh/knowledge-base/6.jpg" width="100%"/>
 </div>
 
 <p style="text-align: center; color: #666; font-size: 14px; margin-top: 8px;">知识库上传文件</p>
@@ -57,7 +57,7 @@ title: 创建知识库
 - 解析成功后,状态更新为"成功",文件内容即可被检索
 
 <div style="text-align: center; margin: 30px 0;">
-  <img src="/img/knowledge-base/7.jpg" width="100%"/>
+  <img src="/img/zh/knowledge-base/7.jpg" width="100%"/>
 </div>
 
 <p style="text-align: center; color: #666; font-size: 14px; margin-top: 8px;">知识库解析文件</p>

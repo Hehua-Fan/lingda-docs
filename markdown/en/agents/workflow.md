@@ -10,7 +10,7 @@ The entire process is like "building blocks" - each module is a component with s
 
 
 <div style="text-align: center; margin: 30px 0;">
-  <img src="/img/agents/workflow/1.jpg" width="100%"/>
+  <img src="/img/en/agents/workflow/1.jpg" width="100%"/>
 </div>
 
 - The left side is the module area, currently the platform's modules are divided into three categories: system modules, agents, and tools.
@@ -19,7 +19,7 @@ The entire process is like "building blocks" - each module is a component with s
   - Tools: Package common tools to expand the agent's ability to connect to third-party capabilities; enterprises can also develop tools according to their own needs.
 
 <div style="text-align: center; margin: 30px 0;">
-  <img src="/img/agents/workflow/2.jpg" width="100%"/>
+  <img src="/img/en/agents/workflow/2.jpg" width="100%"/>
 </div>
 
 
@@ -28,7 +28,7 @@ The entire process is like "building blocks" - each module is a component with s
 - If a connection is incorrect, you can click the X in the middle of the line to delete the connection.
 
 <div style="text-align: center; margin: 30px 0;">
-  <img src="/img/agents/workflow/3.jpg" width="100%"/>
+  <img src="/img/en/agents/workflow/3.jpg" width="100%"/>
 </div>
 
 
@@ -41,7 +41,7 @@ The function area is located in the upper right corner and lower left corner of 
 - Preview: Enter the preview dialogue window for quick dialogue debugging.
 
 <center>
-<img src='/img/agents/workflow/4.jpg' width=45%></img>
+<img src='/img/en/agents/workflow/4.jpg' width=45%></img>
 </center>
 
 **Agent Function Area**
@@ -50,7 +50,7 @@ The function area is located in the upper right corner and lower left corner of 
 - List: List the agent in the "Agent Marketplace."
 
 <center>
-<img src='/img/agents/workflow/5.jpg' width=45%></img>
+<img src='/img/en/agents/workflow/5.jpg' width=45%></img>
 </center>
 
 
@@ -60,7 +60,7 @@ Each module consists of three parts:
 - Module setting area in the middle, where you set parameters, prompts, and other content for the module
 - Module output area in the lower right corner, outputting information after the module executes
 <center>
-<img src='/img/agent-1-3-6.png' width=45%></img>
+<img src='/img/en/agents/workflow/6.jpg' width=45%></img>
 </center>
 
 
@@ -69,12 +69,12 @@ Each module consists of three parts:
 The color of a node is closely related to its type. Below are all the colors of nodes on the platform and their value types:
 
 <center>
-<img src='/img/agent-1-3-7.png' width=45%></img>
+<img src='/img/en/agents/workflow/7.jpg' width=45%></img>
 </center>
 
 
 <center>
-<img src='/img/agent-1-3-8.png' width=45%></img>
+<img src='/img/en/agents/workflow/8.jpg' width=45%></img>
 </center>
 
 

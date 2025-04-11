@@ -10,7 +10,7 @@ title: 发布智能体
 点击智能体右上角的“···”按钮，在弹出的菜单中选择 **“发布”**，即可进入发布页面。
 
 <div style="text-align: center; margin: 30px 0;">
-  <img src="/img/agents/publish/1.jpg" width="100%"/>
+  <img src="/img/zh/agents/publish/1.jpg" width="100%"/>
 </div>
 
 
@@ -26,7 +26,7 @@ title: 发布智能体
    - **链接密码**（可选，支持启用/禁用）
 
 <div style="text-align: center; margin: 30px 0;">
-  <img src="/img/agents/publish/2.jpg" width="100%"/>
+  <img src="/img/zh/agents/publish/2.jpg" width="100%"/>
 </div>
 
 ## 链接操作
@@ -40,7 +40,7 @@ title: 发布智能体
   - 删除链接
 
 <div style="text-align: center; margin: 30px 0;">
-  <img src="/img/agents/publish/3.jpg" width="100%"/>
+  <img src="/img/zh/agents/publish/3.jpg" width="100%"/>
 </div>
 
 ---
@@ -55,7 +55,7 @@ title: 发布智能体
 - **创建时间**：用于记录 API 创建时间  
 
 <div style="text-align: center; margin: 30px 0;">
-  <img src="/img/agents/publish/4.jpg" width="100%"/>
+  <img src="/img/zh/agents/publish/4.jpg" width="100%"/>
 </div>
 
 > 可通过操作按钮进行：复制、刷新密钥、删除 API 信息  

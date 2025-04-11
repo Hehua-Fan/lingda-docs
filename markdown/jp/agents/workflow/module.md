@@ -13,7 +13,7 @@ title: モジュール
 会話のプロセスでは、しばしばユーザーの質問を取得してユーザーの意図を理解する必要があります。「ユーザー質問」モジュールを利用して、ユーザーの質問/選択内容を取得し、その内容を他のモジュールに転送できます。
 
 <center>
-<img src='/img/agent-1-2-1.png' width=100%></img>
+<img src='/img/jp/agents/workflow/module/1.jpg' width=100%></img>
 </center>
 
 | パラメータ名 | タイプ | 機能説明 |
@@ -36,7 +36,7 @@ title: モジュール
 インテリジェント対話モジュールはAI機能を活用し、ユーザーが送信したコンテンツを大規模言語モデルで処理し、指定されたコンテンツをユーザーに返信します。
 
 <center>
-<img src='/img/agent-1-2-3.png' width=45%></img>
+<img src='/img/jp/agents/workflow/module/2.jpg' width=100%></img>
 </center>
 
 | パラメータ名 | タイプ | 機能説明 |
@@ -61,7 +61,7 @@ title: モジュール
 特定のコンテンツをユーザーに返信する必要がある場合、確定応答モジュールを使用でき、ユーザーはテキストボックス内のコンテンツを直接受け取ります。応答内容ノードが外部情報ソースにリンクされている場合、リンク情報が入力ボックス情報を上書きします。
 
 <center>
-<img src='/img/agent-1-2-5.png' width=45%></img>
+<img src='/img/jp/agents/workflow/module/3.jpg' width=100%></img>
 </center>
 
 | パラメータ名 | タイプ | 機能説明 |
@@ -79,7 +79,7 @@ title: モジュール
 AIのインテリジェント分析を活用してユーザーの質問を分類し、異なるタイプの質問に対して異なる操作を実行でき、パーソナライズされた処理が容易になります。
 
 <center>
-<img src='/img/agent-1-2-7.png' width=45%></img>
+<img src='/img/jp/agents/workflow/module/4.jpg' width=100%></img>
 </center>
 
 
@@ -104,7 +104,7 @@ AIのインテリジェント分析を活用してユーザーの質問を分類
 - 通常は検索キーワード、SQL文句などを抽出し、API、ツール、アプリケーションモジュールと組み合わせて使用することで、複雑な機能を実現できます
 
 <center>
-<img src='/img/agent-1-2-9.png' width=45%></img>
+<img src='/img/jp/agents/workflow/module/5.jpg' width=100%></img>
 </center>
 
 
@@ -131,7 +131,7 @@ AIのインテリジェント分析を活用してユーザーの質問を分類
 - プロンプトに基づいて情報を加工し、必要な内容を取得します。
 
 <center>
-<img src='/img/agent-1-2-11.png' width=45%></img>
+<img src='/img/jp/agents/workflow/module/6.jpg' width=100%></img>
 </center>
 
 
@@ -155,7 +155,7 @@ AIのインテリジェント分析を活用してユーザーの質問を分類
 一般的なユーザーの質問に対して、質問をナレッジベースに追加することができ、検索と検索が容易になります。ナレッジベースモジュールにとって、このモジュールはユーザーの質問を入力し、ナレッジベースで関連する質問と回答を検索し、自然言語で出力します。
 
 <center>
-<img src='/img/agent-1-2-13.png' width=45%></img>
+<img src='/img/jp/agents/workflow/module/7.jpg' width=100%></img>
 </center>
 
 
@@ -179,6 +179,10 @@ AIのインテリジェント分析を活用してユーザーの質問を分類
 
 ## ナレッジベース保存
 
+<center>
+<img src='/img/jp/agents/workflow/module/8.jpg' width=100%></img>
+</center>
+
 # マルチモーダル
 
 ## 画像質問
@@ -186,7 +190,7 @@ AIのインテリジェント分析を活用してユーザーの質問を分類
 ユーザーが画像をアップロードした後、視覚モデルの認識能力を活用して、画像に関する質問情報を返信します。
 
 <center>
-<img src='/img/agent-1-2-17.png' width=45%></img>
+<img src='/img/jp/agents/workflow/module/9.jpg' width=100%></img>
 </center>
 
 | パラメータ名 | タイプ | 機能説明 |
@@ -212,7 +216,7 @@ AIのインテリジェント分析を活用してユーザーの質問を分類
 ユーザーが文書をアップロードした後、直接質問を入力し、大規模言語モデルで文書を読み取ってユーザーに返信します。例えば「この文書の要点をまとめる」で、即時の文書質問機能を実現できます。「文書審査」モジュールとは異なり、ここではユーザーが自分で質問を入力でき、「文書審査」では質問を入力する必要はありません。
 
 <center>
-<img src='/img/agent-1-2-19.png' width=45%></img>
+<img src='/img/jp/agents/workflow/module/10.jpg' width=100%></img>
 </center>
 
 | パラメータ名 | タイプ | 機能説明 |
@@ -236,7 +240,7 @@ AIのインテリジェント分析を活用してユーザーの質問を分類
 ドキュメントの読み取りと審査のシナリオでは、ユーザーがドキュメントをアップロードした後、モデルがドキュメントの内容を読み取り、設定された質問に応じて回答します。
 
 <center>
-<img src='/img/agent-1-2-15.png' width=45%></img>
+<img src='/img/jp/agents/workflow/module/11.jpg' width=100%></img>
 </center>
 
 | パラメータ名 | タイプ | 機能説明 |
@@ -257,7 +261,7 @@ AIのインテリジェント分析を活用してユーザーの質問を分類
 ドキュメントに関連するキーワードが含まれているかどうかを認識します
 
 <center>
-<img src='/img/agent-1-2-21.png' width=45%></img>
+<img src='/img/jp/agents/workflow/module/12.jpg' width=100%></img>
 </center>
 
 | パラメータ名 | タイプ | 機能説明 |
@@ -277,11 +281,11 @@ AIのインテリジェント分析を活用してユーザーの質問を分類
 - 記憶変数は現在のシナリオに保存される一時変数であり、他のAgentの計画編成にAgentとして表示される場合、記憶変数はそのAgentの出力パラメータを表し、異なるAgent間で参照を実現します。
 
 <center>
-<img src='/img/agent-1-2-23.png' width=45%></img>
+<img src='/img/jp/agents/workflow/module/13.jpg' width=100%></img>
 </center>
 
 <center>
-<img src='/img/agent-1-2-24.png' width=100%></img>
+<img src='/img/jp/agents/workflow/module/14.jpg' width=100%></img>
 </center>
 
 <p style="text-align: center; color: #666; font-size: 14px; margin-top: 8px;">他のブラウンズ計画のAgentとして実行時にこのポップアップが表示されます</p>
@@ -297,12 +301,16 @@ AIのインテリジェント分析を活用してユーザーの質問を分類
 
 ## 記憶変数追加
 
+<center>
+<img src='/img/jp/agents/workflow/module/15.jpg' width=100%></img>
+</center>
+
 ## コードブロック
 
 - JavaScriptまたはpythonコードを追加してデータ処理を行います
 
 <center>
-<img src='/img/agent-1-2-26.png' width=45%></img>
+<img src='/img/jp/agents/workflow/module/16.jpg' width=100%></img>
 </center>
 
 | パラメータ名 | タイプ | 機能説明 |
@@ -325,7 +333,7 @@ AIのインテリジェント分析を活用してユーザーの質問を分類
 - 正規表現に基づいてデータ処理を行い、文字列型の入力と出力のみをサポートします。
 
 <center>
-<img src='/img/agent-1-2-28.png' width=45%></img>
+<img src='/img/jp/agents/workflow/module/17.jpg' width=100%></img>
 </center>
 
 | パラメータ名 | タイプ | 機能説明 |
@@ -342,7 +350,7 @@ AIのインテリジェント分析を活用してユーザーの質問を分類
 - ループコンポーネントはループプロセスに使用され、使用者はループコンポーネントのループ開始とループ終了を選択してループプロセスを開始します。
 
 <center>
-<img src='/img/agent-1-2-30.png' width=45%></img>
+<img src='/img/jp/agents/workflow/module/18.jpg' width=100%></img>
 </center>
 
 | パラメータ名 | タイプ | 機能説明 |
@@ -359,9 +367,31 @@ AIのインテリジェント分析を活用してユーザーの質問を分類
 
 ## ドキュメント出力
 
+<center>
+<img src='/img/jp/agents/workflow/module/19.jpg' width=100%></img>
+</center>
+
 ## MarkdownからWordへの変換
+
+<center>
+<img src='/img/jp/agents/workflow/module/20.jpg' width=100%></img>
+</center>
 
 # データベース
 ## データベース検索
+
+<center>
+<img src='/img/jp/agents/workflow/module/21.jpg' width=100%></img>
+</center>
+
 ## データビジュアライゼーション
+
+<center>
+<img src='/img/jp/agents/workflow/module/22.jpg' width=100%></img>
+</center>
+
 ## コード抽出器
+
+<center>
+<img src='/img/jp/agents/workflow/module/23.jpg' width=100%></img>
+</center>

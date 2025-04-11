@@ -10,7 +10,7 @@ title: エージェントの公開
 エージェントの右上にある「···」ボタンをクリックし、表示されるメニューから**「公開」**を選択すると、公開ページに移動します。
 
 <div style="text-align: center; margin: 30px 0;">
-  <img src="/img/agents/publish/1.jpg" width="100%"/>
+  <img src="/img/jp/agents/publish/1.jpg" width="100%"/>
 </div>
 
 
@@ -26,7 +26,7 @@ title: エージェントの公開
    - **リンクパスワード**（任意、有効/無効化可能）
 
 <div style="text-align: center; margin: 30px 0;">
-  <img src="/img/agents/publish/2.jpg" width="100%"/>
+  <img src="/img/jp/agents/publish/2.jpg" width="100%"/>
 </div>
 
 ## リンク操作
@@ -40,7 +40,7 @@ title: エージェントの公開
   - リンクの削除
 
 <div style="text-align: center; margin: 30px 0;">
-  <img src="/img/agents/publish/3.jpg" width="100%"/>
+  <img src="/img/jp/agents/publish/3.jpg" width="100%"/>
 </div>
 
 ---
@@ -55,7 +55,7 @@ title: エージェントの公開
 - **作成時間**：API作成時間の記録に使用  
 
 <div style="text-align: center; margin: 30px 0;">
-  <img src="/img/agents/publish/4.jpg" width="100%"/>
+  <img src="/img/jp/agents/publish/4.jpg" width="100%"/>
 </div>
 
 > 操作ボタンで：コピー、キーの更新、API情報の削除が可能  

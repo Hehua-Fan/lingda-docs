@@ -5,13 +5,13 @@ title: 検索テスト
 ファイルの解析が完了したら、検索テストページでデータセットのクエリ効果をテストし、シナリオ要件に最も適したパラメータをデバッグできます。テストテキストを入力し、テストをクリックして効果を確認します。
 
 <center>
-<img src='/img/kb-2-1.png' width=100%></img>
+<img src='/img/jp/knowledge-base/8.jpg' width=100%></img>
 </center>
 
 <p style="text-align: center; color: #666; font-size: 14px; margin-top: 8px;">図2-1：ナレッジベース検索テスト</p>
 
 <center>
-<img src='/img/kb-2-2.png' width=100%></img>
+<img src='/img/jp/knowledge-base/9.jpg' width=100%></img>
 </center>
 
 <p style="text-align: center; color: #666; font-size: 14px; margin-top: 8px;">図2-2：ナレッジベース検索テスト</p>

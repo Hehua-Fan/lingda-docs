@@ -10,7 +10,7 @@ title: ワークフロー計画
 
 
 <div style="text-align: center; margin: 30px 0;">
-  <img src="/img/agents/workflow/1.jpg" width="100%"/>
+  <img src="/img/jp/agents/workflow/1.jpg" width="100%"/>
 </div>
 
 
@@ -20,7 +20,7 @@ title: ワークフロー計画
   - ツール：一般的なツールをパッケージ化してエージェントのサードパーティ機能への接続を拡張します。企業は自身のニーズに応じてツールを開発することもできます。
 
 <div style="text-align: center; margin: 30px 0;">
-  <img src="/img/agents/workflow/2.jpg" width="100%"/>
+  <img src="/img/jp/agents/workflow/2.jpg" width="100%"/>
 </div>
 
 - キャンバスエリアは「計画」設計エリアで、モジュールエリアからコンポーネントをドラッグしてキャンバスに移動し、接続を通じて各モジュールの能力を組み合わせることができます。
@@ -28,7 +28,7 @@ title: ワークフロー計画
 - 接続が間違っている場合は、線の中央にあるXをクリックして接続を削除できます。
 
 <div style="text-align: center; margin: 30px 0;">
-  <img src="/img/agents/workflow/3.jpg" width="100%"/>
+  <img src="/img/jp/agents/workflow/3.jpg" width="100%"/>
 </div>
 
 機能エリアはページの右上隅と左下隅にあり、2つの部分に分かれています：
@@ -40,7 +40,7 @@ title: ワークフロー計画
 - プレビュー：プレビュー対話ウィンドウに入り、クイック対話デバッグを行います。
 
 <center>
-<img src='/img/agents/workflow/4.jpg' width=45%></img>
+<img src='/img/jp/agents/workflow/4.jpg' width=45%></img>
 </center>
 
 
@@ -50,7 +50,7 @@ title: ワークフロー計画
 - リスト：エージェントを「エージェントマーケットプレイス」にリストします。
 
 <center>
-<img src='/img/agents/workflow/5.jpg' width=45%></img>
+<img src='/img/jp/agents/workflow/5.jpg' width=45%></img>
 </center>
 
 **モジュール構造**
@@ -59,7 +59,7 @@ title: ワークフロー計画
 - 中央の部分はモジュール設定エリアで、モジュールのパラメータ、プロンプトなどのコンテンツを設定します
 - 右下のモジュール出力エリア、モジュール実行後の情報を出力します
 <center>
-<img src='/img/agent-1-3-6.png' width=45%></img>
+<img src='/img/jp/agents/workflow/6.jpg' width=45%></img>
 </center>
 
 
@@ -68,11 +68,11 @@ title: ワークフロー計画
 ノードの色はその種類と密接に関連しています。以下はプラットフォーム上のすべてのノードの色とその値の種類です：
 
 <center>
-<img src='/img/agent-1-3-7.png' width=45%></img>
+<img src='/img/jp/agents/workflow/7.jpg' width=45%></img>
 </center>
 
 <center>
-<img src='/img/agent-1-3-8.png' width=45%></img>
+<img src='/img/jp/agents/workflow/8.jpg' width=45%></img>
 </center>
 
 

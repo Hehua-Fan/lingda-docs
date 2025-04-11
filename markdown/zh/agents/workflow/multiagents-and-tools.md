@@ -9,7 +9,7 @@ title: 多智能体与工具调用
 导航至左侧"智能体"面板,浏览您的智能体库。从中挑选理想的智能体,将它们拖放到中央画布区。这些被选中的智能体将作为"子智能体",让您轻松构建强大的多智能体系统。
 
 <div style="text-align: center; margin: 30px 0;">
-  <img src="/img/agents/workflow/multiagents-and-tools/1.jpg" width="100%"/>
+  <img src="/img/zh/agents/workflow/multiagents-and-tools/1.jpg" width="100%"/>
 </div>
 
 **子智能体的构成与规则：**
@@ -42,7 +42,7 @@ title: 多智能体与工具调用
 这里集中展示了您账号下所有可用的工具，包括自主开发和授权使用的各类资源。
 
 <div style="text-align: center; margin: 30px 0;">
-  <img src="/img/agents/workflow/multiagents-and-tools/2.jpg" width="100%"/>
+  <img src="/img/zh/agents/workflow/multiagents-and-tools/2.jpg" width="100%"/>
 </div>
 
 可将工具拖拽至画布上进行使用。

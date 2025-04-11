@@ -13,7 +13,7 @@ title: 模块
 在对话过程中，我们往往需要获取用户的提问，来了解用户意图。借助“用户问题”模块可以获取用户提问/选择内容，并将内容传输给其他模块。
 
 <center>
-<img src='/img/agent-1-2-1.png' width=100%></img>
+<img src='/img/zh/agents/workflow/module/1.jpg' width=100%></img>
 </center>
 
 | 参数名称       | 类型         | 功能介绍 |
@@ -36,7 +36,7 @@ title: 模块
 智能对话模块借助 AI 能力，将用户发送的内容，通过大语言模型进行处理并回复给用户指定内容。
 
 <center>
-<img src='/img/agent-1-2-3.png' width=45%></img>
+<img src='/img/zh/agents/workflow/module/2.jpg' width=100%></img>
 </center>
 
 | 参数名称               | 类型                   | 功能介绍 |
@@ -61,7 +61,7 @@ title: 模块
 在需要将特定内容回复给用户时，可以使用确定回复模块，用户将直接收到文本框中的内容。如果回复内容节点链接外部信息源，则链接信息将覆盖输入框信息。
 
 <center>
-<img src='/img/agent-1-2-5.png' width=45%></img>
+<img src='/img/zh/agents/workflow/module/3.jpg' width=100%></img>
 </center>
 
 | 参数名称               | 类型         | 功能介绍 |
@@ -79,7 +79,7 @@ title: 模块
 借助 AI 的智能分析，将用户问题进行分类，可以针对不同类型的问题执行不同操作，方便进行个性化处理
 
 <center>
-<img src='/img/agent-1-2-7.png' width=45%></img>
+<img src='/img/zh/agents/workflow/module/4.jpg' width=100%></img>
 </center>
 
 
@@ -104,7 +104,7 @@ title: 模块
 - 常用于提取搜索关键词，SQL语句等，结合API、工具和应用模块使用，可以实现复杂功能
 
 <center>
-<img src='/img/agent-1-2-9.png' width=45%></img>
+<img src='/img/zh/agents/workflow/module/5.jpg' width=100%></img>
 </center>
 
 
@@ -131,7 +131,7 @@ title: 模块
 通过 prompt 对信息进行加工，以获得符合需求的内容。
 
 <center>
-<img src='/img/agent-1-2-11.png' width=45%></img>
+<img src='/img/zh/agents/workflow/module/6.jpg' width=100%></img>
 </center>
 
 
@@ -155,7 +155,7 @@ title: 模块
 针对常见的用户提问，可以将问题添加进知识库，便于搜索和查找。而对于“知识库”模块而言，该模块可以输入用户问题，并在知识库中搜索相关问题与解答，并用自然语言进行输出。
 
 <center>
-<img src='/img/agent-1-2-13.png' width=45%></img>
+<img src='/img/zh/agents/workflow/module/7.jpg' width=100%></img>
 </center>
 
 
@@ -179,6 +179,10 @@ title: 模块
 
 ## 存储到知识库
 
+<center>
+<img src='/img/zh/agents/workflow/module/8.jpg' width=100%></img>
+</center>
+
 # 多模态
 
 ## 图片提问  
@@ -186,7 +190,7 @@ title: 模块
 支持用户上传图片后，借助视觉模型的识图能力，回复有关图片的提问信息。
 
 <center>
-<img src='/img/agent-1-2-17.png' width=45%></img>
+<img src='/img/zh/agents/workflow/module/9.jpg' width=100%></img>
 </center>
 
 | 参数名称               | 类型                   | 功能介绍 |
@@ -212,7 +216,7 @@ title: 模块
 支持用户上传文档后，直接输入问题，利用大语言模型读取文档后，回复用户。例如“总结这份文档中的要点”，实现即时的文档提问功能。与“文档审核”模块不同的是，这里用户可以自己输入提问问题，而“文档审核”则是预置提问，此处不需要输入问题。
 
 <center>
-<img src='/img/agent-1-2-19.png' width=45%></img>
+<img src='/img/zh/agents/workflow/module/10.jpg' width=100%></img>
 </center>
 
 | 参数名称               | 类型         | 功能介绍 |
@@ -232,11 +236,13 @@ title: 模块
 
 
 # 文档审查 
-## 文档审查 
+
+## 文档审查
+
 用于文档读取和审核场景，用户上传文档后，模型通过读取文档内容，并根据设定好的提问，依次进行回答。
 
 <center>
-<img src='/img/agent-1-2-15.png' width=45%></img>
+<img src='/img/zh/agents/workflow/module/11.jpg' width=100%></img>
 </center>
 
 | 参数名称               | 类型         | 功能介绍 |
@@ -257,7 +263,7 @@ title: 模块
 识别文档中是否包含相关关键词
 
 <center>
-<img src='/img/agent-1-2-21.png' width=45%></img>
+<img src='/img/zh/agents/workflow/module/12.jpg' width=100%></img>
 </center>
 
 | 参数名称       | 类型         | 功能介绍 |
@@ -277,11 +283,11 @@ title: 模块
 - 记忆变量为当前场景中存储的临时变量，在作为Agent出现在其他Agent的编排中时，记忆变量表示改Agent输出参数，实现跨Agent进行引用。
 
 <center>
-<img src='/img/agent-1-2-23.png' width=45%></img>
+<img src='/img/zh/agents/workflow/module/13.jpg' width=100%></img>
 </center>
 
 <center>
-<img src='/img/agent-1-2-24.png' width=100%></img>
+<img src='/img/zh/agents/workflow/module/14.jpg' width=100%></img>
 </center>
 
 <p style="text-align: center; color: #666; font-size: 14px; margin-top: 8px;">作为其他画布规划中的Agent，运行时会有此弹窗进行确认</p>
@@ -297,12 +303,16 @@ title: 模块
 
 ## 添加记忆变量
 
+<center>
+<img src='/img/zh/agents/workflow/module/15.jpg' width=100%></img>
+</center>
+
 ## 代码块  
 
 - 通过添加 JavaScript 或 python 代码进行数据处理
 
 <center>
-<img src='/img/agent-1-2-26.png' width=45%></img>
+<img src='/img/zh/agents/workflow/module/16.jpg' width=100%></img>
 </center>
 
 | 参数名称         | 类型       | 功能介绍 |
@@ -325,7 +335,7 @@ title: 模块
 - 通过正则表达式进行数据处理，仅支持字符串类型的输入与输出。
 
 <center>
-<img src='/img/agent-1-2-28.png' width=45%></img>
+<img src='/img/zh/agents/workflow/module/17.jpg' width=100%></img>
 </center>
 
 | 参数名称         | 类型       | 功能介绍 |
@@ -342,7 +352,7 @@ title: 模块
 - 循环组件用于循环流程，使用者将需要循环处理的流程用循环组件的循环起点和循环终点做圈选，启动循环流程。
 
 <center>
-<img src='/img/agent-1-2-30.png' width=45%></img>
+<img src='/img/zh/agents/workflow/module/18.jpg' width=100%></img>
 </center>
 
 | 参数名称           | 类型               | 功能介绍 |
@@ -359,9 +369,31 @@ title: 模块
 
 ## 文档输出
 
+<center>
+<img src='/img/zh/agents/workflow/module/19.jpg' width=100%></img>
+</center>
+
 ## Markdown转Word
+
+<center>
+<img src='/img/zh/agents/workflow/module/20.jpg' width=100%></img>
+</center>
 
 # 数据库
 ## 数据库查询
+
+<center>
+<img src='/img/zh/agents/workflow/module/21.jpg' width=100%></img>
+</center>
+
 ## 数据可视化
+
+<center>
+<img src='/img/zh/agents/workflow/module/22.jpg' width=100%></img>
+</center>
+
 ## 代码提取器
+
+<center>
+<img src='/img/zh/agents/workflow/module/23.jpg' width=100%></img>
+</center>
