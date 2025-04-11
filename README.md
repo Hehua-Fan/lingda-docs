@@ -65,7 +65,7 @@ npm run dev
 ### 更新文档内容
 
   <center>
-    <img src='public/img/image.png' width=100%></img>
+    <img src='public/img/image.png' width=40%></img>
   </center>
 
 #### 更新Markdown文件
