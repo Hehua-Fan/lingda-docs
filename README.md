@@ -3,8 +3,6 @@
 这是 AutoAgents.ai 灵搭平台的官方文档仓库，包含平台的使用指南、API 文档和示例智能体的使用说明。基于 Next.js 构建的现代化多语言文档站点。
 
 
-
-
 ## 文件结构
 
 Markdown 文档按语言和类别组织：
@@ -66,6 +64,10 @@ npm run dev
 
 ### 更新文档内容
 
+  <center>
+    <img src='public/img/image.png' width=40%></img>
+  </center>
+
 #### 更新Markdown文件
 
 1. Markdown文件位于以下目录：
@@ -89,7 +91,7 @@ npm run dev
    - 英文图片：`public/img/en/`
    - 日文图片：`public/img/jp/`
 2. 在Markdown中引用图片：
-   ```markdown
+   ```plaintext
   <center>
     <img src='/img/zh/knowledge-base/8.jpg' width=100%></img>
   </center>
