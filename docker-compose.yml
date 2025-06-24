@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  lingda-docs:
+    build: .
+    container_name: lingda-docs
+    ports:
+      - "3002:3002"
+    restart: unless-stopped
+    environment:
+      - NODE_ENV=production
+      - NEXT_TELEMETRY_DISABLED=1
+      - PORT=3002
+      - HOSTNAME=0.0.0.0
+    networks:
+      - app-network
+    healthcheck:
+      test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://localhost:3002"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+networks:
+  app-network:
+    driver: bridge 
